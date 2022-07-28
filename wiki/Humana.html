@@ -1,0 +1,55 @@
+<!--
+title: Humana
+description: 
+published: true
+date: 2022-07-27T21:30:20.260Z
+tags: 
+editor: ckeditor
+dateCreated: 2022-07-27T20:37:51.109Z
+-->
+
+<h1>Humana</h1><div class="mw-parser-output"><p>A for-profit American health insurance company based in Louisville, Kentucky. In 2020, the company ranked 52 on the Fortune 500 list, which made it the highest ranked (by revenues) company based in Kentucky. It has been the third largest health insurance in the nation.  Humana is a Medicare Advantage HMO, PPO and PFFS organization and a stand-alone prescription drug plan with a Medicare contract.
+</p>
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#How_to_Download_and_Share_Your_Data"><span class="tocnumber">1</span> <span class="toctext">How to Download and Share Your Data</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Being_RESTful"><span class="tocnumber">1.1</span> <span class="toctext">Being RESTful</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Swagger"><span class="tocnumber">1.2</span> <span class="toctext">Swagger</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#FHIR"><span class="tocnumber">1.3</span> <span class="toctext">FHIR</span></a></li>
+<li class="toclevel-2 tocsection-5"><a href="#Endpoints"><span class="tocnumber">1.4</span> <span class="toctext">Endpoints</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Posting_data"><span class="tocnumber">1.5</span> <span class="toctext">Posting data</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-7"><a href="#Number_of_Customers"><span class="tocnumber">2</span> <span class="toctext">Number of Customers</span></a></li>
+</ul>
+</div>
+
+<h2><span class="mw-headline" id="How_to_Download_and_Share_Your_Data">How to Download and Share Your Data</span></h2>
+<p><a rel="nofollow" class="external free" href="https://developer.humana.com/site/global/apis/index.gsp">https://developer.humana.com/site/global/apis/index.gsp</a>
+</p><p><b><big>API Documentation</big></b>
+</p><p>Humana offers a variety of Application Programming Interfaces (APIs) to help you make data more manageable, accessible and valuable for clients and consumers. This list will continue to grow as more APIs become available.
+</p>
+<h3><span class="mw-headline" id="Being_RESTful">Being RESTful</span></h3>
+<p>Humana APIs follow the Representational state transfer (REST) format allowing resources (accounts, client, etc) to be standardized with a uniform set of <code>GET, POST, PUT, DELETE HTTP</code> requests. Communication with Humana follows the REST architecture constraints including being stateless &amp; cacheable. All responses are returned as JSON objects.
+</p>
+<h3><span class="mw-headline" id="Swagger">Swagger</span></h3>
+<p>Swagger is used to describe and document RESTful APIs. More information can be found at Swagger.IO
+</p>
+<h3><span class="mw-headline" id="FHIR">FHIR</span></h3>
+<p>Fast Healthcare Interoperability Resources is a standard for data formats for application programming interfaces for exchanging health information. More information can be found at HL7.org/FHIR
+</p>
+<h3><span class="mw-headline" id="Endpoints">Endpoints</span></h3>
+<p>Humana is a multi_tenated environment with all tenants having access at their own sub_domain. To make a request to a tenant use the pattern <code>?.humana.com/api/</code>.
+</p>
+<h3><span class="mw-headline" id="Posting_data">Posting data</span></h3>
+<p>API requests which post data can either use url_encoding or json to enter data. The content_type header must be set to <code>"application/json"</code> for the json request. The following two example shows the two methods for posting data. Note that for some requests, much more information can be posted using the json input that is available with url_encoding but all url_encoded requests are supported with their json equivalents.
+</p>
+<h2><span class="mw-headline" id="Number_of_Customers">Number of Customers</span></h2>
+<p>20 Million Customers
+</p>
+
+
+
+
+</div>
